@@ -1,6 +1,6 @@
 body {
 	font-family: 'Arial', sans-serif;
-	background-color: aquamarine;
+	font-size: 48px;
 }
 
 .video-container {
@@ -29,7 +29,6 @@ body {
 p {
 	text-align: left;
 	color: #FFFFFF;
-	font-size: 48px;
 	max-width: 700px;
 	justify-items: end;
 }
@@ -44,6 +43,8 @@ p {
   }
 }
 
-
-
-
+@media screen and (max-width: 820px) {
+	body {
+	  font-size: 64px;
+	}
+}

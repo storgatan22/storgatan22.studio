@@ -2,6 +2,7 @@ body {
 	font-family: 'Arial', sans-serif;
 	font-size: 90px;
 	padding: 3%;
+	background-color: black;
 }
 
 .video-container {
@@ -20,7 +21,11 @@ body {
 	left: 0;
   }  
 
-p {
+.text {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	position: absolute;
 	text-align: left;
 	color: #FFFFFF;

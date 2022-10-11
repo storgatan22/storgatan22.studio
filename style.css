@@ -1,6 +1,7 @@
 body {
 	font-family: 'Arial', sans-serif;
-	font-size: 48px;
+	font-size: 90px;
+	padding: 3%;
 }
 
 .video-container {
@@ -19,32 +20,9 @@ body {
 	left: 0;
   }  
 
-.overlay {
-	padding: 5%;
-	z-index: 2;
-	position: absolute;
-	bottom: 0;
-}
-
 p {
+	position: absolute;
 	text-align: left;
 	color: #FFFFFF;
-	max-width: 700px;
-	justify-items: end;
-}
-
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-
-@media screen and (max-width: 820px) {
-	body {
-	  font-size: 64px;
-	}
+	max-width: 1200px;	
 }

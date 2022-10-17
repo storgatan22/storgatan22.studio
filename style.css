@@ -22,11 +22,8 @@ body {
   }  
 
 .text {
-	height: 100vh;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
 	position: absolute;
+	top: 40%;
 	text-align: left;
 	color: #FFFFFF;
 	max-width: 720px;	

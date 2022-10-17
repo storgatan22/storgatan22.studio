@@ -1,6 +1,6 @@
 body {
 	font-family: 'Arial', sans-serif;
-	font-size: 90px;
+	font-size: 54px;
 	padding: 3%;
 	background-color: black;
 }
@@ -29,5 +29,5 @@ body {
 	position: absolute;
 	text-align: left;
 	color: #FFFFFF;
-	max-width: 1200px;	
+	max-width: 720px;	
 }
